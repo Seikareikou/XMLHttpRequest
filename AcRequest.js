@@ -12,9 +12,7 @@ AcRequest.prototype.sendRequest = function(success, failed){
 	if (m === "GET"){
 		if(d.length > 0){
 			xhr.open("GET", u+"?"+d);
-			} else {
-            xhr.open(m, u);
-            }
+			} else {xhr.open(m, u)}
         xhr.send()
 		} else if(m === "Post"){
 			xhr.open("Post",u)
