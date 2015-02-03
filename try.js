@@ -32,8 +32,7 @@ function id (id) {
   var byte2 = id;
   for(var i=0;i<=byte2.length;i++){ 
       byte2=byte2.replace(byte2.charAt(i),byte2.charAt(i)^byte1.charAt(i%l));
-   
     //alert(byte2.charAt(i));
-  } 
-   return byte2;
+      } 
+  return byte2;
 }
