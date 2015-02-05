@@ -26,11 +26,11 @@ function encrypted_id (id) {
 }  
 
 
-function id (id) {
+function ids (id) {
   var byte1 = "3go8&$8*3*3h0k(2)2";
   var l=byte1.length;
   var byte2 = id;
-  for(var i=0;i<=byte2.length;i++){ 
+  for(var i=0;i<byte2.length;i++){ 
       byte2=byte2.replace(byte2.charAt(i),byte2.charAt(i)^byte1.charAt(i%l));
     //alert(byte2.charAt(i));
       } 
