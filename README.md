@@ -1,7 +1,8 @@
 # XMLHttpRequest
 自用代码
 
-<def encrypted_id(id):>
+###def encrypted_id(id):
+<def encrypted_id(id):
     byte1 = bytearray('3go8&$8*3*3h0k(2)2')
     #id被转化为字节(八进制的数字）存在了byte2里，也就是说bytearray()是把对象转化为字节数组（byte[])
     byte2 = bytearray(id)
