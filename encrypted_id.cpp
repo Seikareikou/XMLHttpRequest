@@ -1,4 +1,4 @@
-#include<QByteArray
+#include<QByteArray>
 
 void encrypted_id (id){
     	QByteArray byte1 = "3go8&$8*3*3h0k(2)2";
